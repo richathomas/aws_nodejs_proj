@@ -28,6 +28,6 @@ app.get('/', async (req, res) => {
   }
 })
 
-app.listen(8000, () => {
+app.listen(8000, '0.0.0.0', () => {
   console.log('Server is running at port 8000');
 });
