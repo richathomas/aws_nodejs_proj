@@ -1,0 +1,4 @@
+
+cd /path/to/aws_nodejs_proj
+npm init -y
+npm install express
